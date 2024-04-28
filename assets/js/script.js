@@ -516,4 +516,4 @@ function capitalize(str) {
   return str;
 }
 
-console.log(capitalize("cavid"));
+// console.log(capitalize("kamran"));
