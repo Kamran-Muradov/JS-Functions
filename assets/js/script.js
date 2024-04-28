@@ -507,17 +507,13 @@ let result2 = searchByEmail(studentArr);
 // 9) Function yazacaqsiz, Functiona parametr olaraq string gelecek. Hemin function gelen parametrin ilk herfini boyuk herf edib geri qaytarsin.
 
 function capitalize(str) {
-  let capitalizedStr;
 
   if (typeof str == "string") {
-    capitalizedStr = str[0].toUpperCase();
 
-    for (let i = 1; i < str.length; i++) {
-      capitalizedStr += str[i];
-    }
+    return str.replace(str[0], str[0].toUpperCase());
   }
 
-  return capitalizedStr;
+  return str;
 }
 
-// console.log(capitalize("kamran"));
+console.log(capitalize("cavid"));
